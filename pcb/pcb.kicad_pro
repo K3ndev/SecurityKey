@@ -429,7 +429,7 @@
         "uuid": "7be3b359-5856-4193-92cd-ba6762ca843a"
       }
     ],
-    "used_designators": "R1-5,#SYM1,C1-4,D1,Y1,#PWR1-14,U1-3",
+    "used_designators": "J1,R1-10,#SYM1,C1-12,D1,Y1,#PWR1-33,U1-5",
     "variants": []
   },
   "sheets": [
@@ -452,6 +452,14 @@
     [
       "7663ba6b-9a5b-4c2a-8732-2cf9d0538841",
       "clock"
+    ],
+    [
+      "08a6dbeb-6211-497c-ad56-18036751b267",
+      "usb"
+    ],
+    [
+      "fdfedae2-bd27-46d6-915a-352829d03b09",
+      "pover"
     ]
   ],
   "text_variables": {},
