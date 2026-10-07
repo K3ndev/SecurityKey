@@ -538,7 +538,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "08a5a280-cd87-468b-aa48-6cd423aa3613")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR035"
 			(at 168.91 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -599,7 +599,7 @@
 		(instances
 			(project "pcb"
 				(path "/7be3b359-5856-4193-92cd-ba6762ca843a/fdfedae2-bd27-46d6-915a-352829d03b09"
-					(reference "#PWR032")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -637,7 +637,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 143.51 98.0948 0)
 			(hide yes)
 			(show_name no)
@@ -661,6 +661,50 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 139.7 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 139.7 99.06 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 139.7 99.06 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 139.7 99.06 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 139.7 99.06 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -697,7 +741,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "28e73608-3a01-4d0c-ac4e-5c795409271c")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR032"
 			(at 135.89 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -757,7 +801,7 @@
 		(instances
 			(project "pcb"
 				(path "/7be3b359-5856-4193-92cd-ba6762ca843a/fdfedae2-bd27-46d6-915a-352829d03b09"
-					(reference "#PWR029")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -795,7 +839,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 162.56 98.0948 0)
 			(hide yes)
 			(show_name no)
@@ -819,6 +863,50 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 158.75 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 158.75 99.06 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 158.75 99.06 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 158.75 99.06 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 158.75 99.06 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -855,7 +943,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "485f4332-055e-4c4b-bbb3-c5eb8a9836fe")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR034"
 			(at 154.94 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -915,7 +1003,7 @@
 		(instances
 			(project "pcb"
 				(path "/7be3b359-5856-4193-92cd-ba6762ca843a/fdfedae2-bd27-46d6-915a-352829d03b09"
-					(reference "#PWR031")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -953,7 +1041,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 121.92 98.0948 0)
 			(hide yes)
 			(show_name no)
@@ -977,6 +1065,50 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 118.11 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 118.11 99.06 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 118.11 99.06 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 118.11 99.06 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 118.11 99.06 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1013,7 +1145,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "afa10201-9ee5-441b-9f8d-40d3d4c5536c")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR030"
 			(at 114.3 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -1073,7 +1205,7 @@
 		(instances
 			(project "pcb"
 				(path "/7be3b359-5856-4193-92cd-ba6762ca843a/fdfedae2-bd27-46d6-915a-352829d03b09"
-					(reference "#PWR026")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -1091,7 +1223,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ce11336c-ab7f-488a-b157-6164d27cd7cd")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR033"
 			(at 149.86 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -1152,7 +1284,7 @@
 		(instances
 			(project "pcb"
 				(path "/7be3b359-5856-4193-92cd-ba6762ca843a/fdfedae2-bd27-46d6-915a-352829d03b09"
-					(reference "#PWR030")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -1170,7 +1302,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ebf72d5c-7bc6-4b40-999b-a7556e2cba7e")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR031"
 			(at 128.27 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -1231,7 +1363,7 @@
 		(instances
 			(project "pcb"
 				(path "/7be3b359-5856-4193-92cd-ba6762ca843a/fdfedae2-bd27-46d6-915a-352829d03b09"
-					(reference "#PWR028")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)

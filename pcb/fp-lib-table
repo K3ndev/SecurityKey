@@ -1,0 +1,5 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "custom_lib") (type "KiCad") (uri "${KIPRJMOD}/footprints/custom_lib.pretty/footprints/Connector_USB_PCB_Edge.pretty") (options "") (descr ""))
+	(lib (name "easyeda2kicad") (type "KiCad") (uri "/home/sadmin/Documents/Kicad/easyeda2kicad/easyeda2kicad.pretty") (options "") (descr ""))
+)
