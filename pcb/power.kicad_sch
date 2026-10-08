@@ -714,6 +714,17 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C1591"
+			(at 139.7 99.06 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "7d44074e-8ce1-438a-a28b-70c20ff8ac6d")
 		)
@@ -916,6 +927,17 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C1591"
+			(at 158.75 99.06 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "f491dcef-4437-48a3-aa8e-ed28845d255e")
 		)
@@ -1108,6 +1130,17 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 118.11 99.06 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C1591"
 			(at 118.11 99.06 90)
 			(hide yes)
 			(show_name no)

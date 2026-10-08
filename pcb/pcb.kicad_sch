@@ -2830,6 +2830,17 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C22548"
+			(at 62.23 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "fed4848f-b37c-470c-80a8-6f963d693b76")
 		)
@@ -3298,6 +3309,17 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C98220"
+			(at 179.07 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "18d242df-deb5-4712-a3dc-cef6938b0acb")
 		)
@@ -3414,7 +3436,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "SW_Push_Big"
 			(at 191.77 87.63 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3491,6 +3513,17 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 191.77 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C2689521"
 			(at 191.77 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -3617,6 +3650,17 @@
 			)
 		)
 		(property "KLC_S4.1" ""
+			(at 143.51 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C2040"
 			(at 143.51 102.87 0)
 			(hide yes)
 			(show_name no)

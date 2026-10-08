@@ -1155,6 +1155,17 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C98220"
+			(at 124.46 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "6d600008-1c5e-4678-b5c1-89b4ac41e2d9")
 		)
@@ -1680,6 +1691,17 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 194.31 113.03 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C23345"
 			(at 194.31 113.03 90)
 			(hide yes)
 			(show_name no)

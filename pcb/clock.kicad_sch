@@ -992,6 +992,17 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C2906981"
+			(at 154.94 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "ed3d781c-caac-47de-9415-c1b10c9f5881")
 		)
@@ -1185,6 +1196,17 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 147.32 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C2842186"
 			(at 147.32 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -1666,6 +1688,17 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 147.32 69.85 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "-"
 			(at 147.32 69.85 90)
 			(hide yes)
 			(show_name no)
