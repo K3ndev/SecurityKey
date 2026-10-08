@@ -1891,6 +1891,12 @@
 		(color 0 0 0 0)
 		(uuid "5eed7f1a-ca70-4956-8ff9-d148d379533d")
 	)
+	(junction
+		(at 146.05 30.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ad55b5c6-643d-4801-a946-9326f29d52c3")
+	)
 	(wire
 		(pts
 			(xy 130.81 46.99) (xy 130.81 57.15)
@@ -1910,6 +1916,16 @@
 			(type default)
 		)
 		(uuid "1a9d58ba-bc53-46cc-b1ae-34873b9ee47d")
+	)
+	(wire
+		(pts
+			(xy 146.05 30.48) (xy 154.94 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23ad8571-59c6-432d-ba66-571c225e9d60")
 	)
 	(wire
 		(pts
@@ -2023,6 +2039,16 @@
 	)
 	(wire
 		(pts
+			(xy 146.05 30.48) (xy 146.05 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48a9d157-b494-423d-b35e-78ef153bbe9e")
+	)
+	(wire
+		(pts
 			(xy 168.91 69.85) (xy 177.8 69.85)
 		)
 		(stroke
@@ -2070,16 +2096,6 @@
 			(type default)
 		)
 		(uuid "759bfcad-844a-401a-a8a6-9aeebd868548")
-	)
-	(wire
-		(pts
-			(xy 146.05 46.99) (xy 146.05 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "795b1e15-0f72-4421-8a4e-12e8a6f212a6")
 	)
 	(wire
 		(pts
@@ -2193,6 +2209,16 @@
 	)
 	(wire
 		(pts
+			(xy 135.89 30.48) (xy 146.05 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eaf55d95-d0f3-4a4c-821b-22efc5410d8a")
+	)
+	(wire
+		(pts
 			(xy 179.07 82.55) (xy 168.91 82.55)
 		)
 		(stroke
@@ -2281,7 +2307,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 153.67 40.64 90)
+		(at 152.4 40.64 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2292,7 +2318,7 @@
 		(fields_autoplaced yes)
 		(uuid "08e1d725-230b-4734-83ab-71d2bf35e68f")
 		(property "Reference" "#PWR06"
-			(at 160.02 40.64 0)
+			(at 158.75 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2303,7 +2329,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 157.48 40.6399 90)
+			(at 156.21 40.6399 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2314,7 +2340,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 153.67 40.64 0)
+			(at 152.4 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2325,7 +2351,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 153.67 40.64 0)
+			(at 152.4 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2336,7 +2362,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 153.67 40.64 0)
+			(at 152.4 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2469,7 +2495,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
+		(property "Footprint" "easyeda2kicad:SW-SMD_L3.9-W3.0-P4.45"
 			(at 88.9 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -2546,6 +2572,17 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C115357"
+			(at 88.9 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "396a5b80-ee6a-49c4-9481-b8f5385763ab")
 		)
@@ -2556,6 +2593,140 @@
 			(project "pcb"
 				(path "/7be3b359-5856-4193-92cd-ba6762ca843a"
 					(reference "SW2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 132.08 30.48 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "54a8f988-6b14-4315-91d1-7bdf683dea98")
+		(property "Reference" "C13"
+			(at 132.08 25.4 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1uF"
+			(at 132.08 27.178 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 135.89 29.5148 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 132.08 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 132.08 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 132.08 30.48 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 132.08 30.48 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 132.08 30.48 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 132.08 30.48 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C1591"
+			(at 132.08 30.48 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "8872eb98-49c2-4cf4-ab61-d42b379c322a")
+		)
+		(pin "1"
+			(uuid "375239ec-bc05-4690-8be4-12f51b5d174e")
+		)
+		(instances
+			(project "pcb"
+				(path "/7be3b359-5856-4193-92cd-ba6762ca843a"
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -2714,6 +2885,85 @@
 			(project "pcb"
 				(path "/7be3b359-5856-4193-92cd-ba6762ca843a"
 					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 128.27 30.48 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8689190c-f56b-40f6-872c-4e265e7cb76e")
+		(property "Reference" "#PWR036"
+			(at 121.92 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 124.46 30.4799 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 128.27 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 128.27 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 128.27 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a1447f3d-2db7-45e0-a951-70921b0a241f")
+		)
+		(instances
+			(project "pcb"
+				(path "/7be3b359-5856-4193-92cd-ba6762ca843a"
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -2890,7 +3140,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
+		(property "Footprint" "easyeda2kicad:SW-SMD_L3.9-W3.0-P4.45"
 			(at 57.15 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -2957,6 +3207,17 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 62.23 85.09 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C115357"
 			(at 62.23 85.09 90)
 			(hide yes)
 			(show_name no)
@@ -3446,7 +3707,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
+		(property "Footprint" "easyeda2kicad:SW-SMD_L3.9-W3.0-P4.45"
 			(at 191.77 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -3523,7 +3784,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C2689521"
+		(property "LCSC Part" "C115357"
 			(at 191.77 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -3853,7 +4114,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 146.05 46.99 0)
+		(at 154.94 30.48 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3864,7 +4125,7 @@
 		(fields_autoplaced yes)
 		(uuid "f73d170b-be39-4677-9afe-d601fe9df42a")
 		(property "Reference" "#PWR05"
-			(at 146.05 50.8 0)
+			(at 151.13 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3875,17 +4136,18 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 146.05 41.91 0)
+			(at 158.75 30.4799 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 146.05 46.99 0)
+			(at 154.94 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3896,7 +4158,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 146.05 46.99 0)
+			(at 154.94 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3907,7 +4169,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 146.05 46.99 0)
+			(at 154.94 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4336,7 +4598,7 @@
 			)
 		)
 		(property "Sheetfile" "power.kicad_sch"
-			(at 128.778 35.306 0)
+			(at 123.952 35.56 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
