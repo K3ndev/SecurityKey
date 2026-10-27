@@ -2039,16 +2039,6 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 30.48) (xy 146.05 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "48a9d157-b494-423d-b35e-78ef153bbe9e")
-	)
-	(wire
-		(pts
 			(xy 168.91 69.85) (xy 177.8 69.85)
 		)
 		(stroke
@@ -2139,6 +2129,16 @@
 	)
 	(wire
 		(pts
+			(xy 135.89 30.48) (xy 146.05 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5b61688-2b0d-410b-b094-8d45dcf0719a")
+	)
+	(wire
+		(pts
 			(xy 177.8 97.79) (xy 168.91 97.79)
 		)
 		(stroke
@@ -2209,16 +2209,6 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 30.48) (xy 146.05 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eaf55d95-d0f3-4a4c-821b-22efc5410d8a")
-	)
-	(wire
-		(pts
 			(xy 179.07 82.55) (xy 168.91 82.55)
 		)
 		(stroke
@@ -2226,6 +2216,26 @@
 			(type default)
 		)
 		(uuid "f20a3dcf-43a6-4d71-8592-4e7383a8c643")
+	)
+	(wire
+		(pts
+			(xy 146.05 30.48) (xy 146.05 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6bf5427-0963-4fee-8c00-f5a4ccbc006e")
+	)
+	(label "Vreg_Vin"
+		(at 146.05 57.15 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "84b5233b-40db-49a7-b1b9-51d0aeaf6d21")
 	)
 	(symbol
 		(lib_id "power:GND")
